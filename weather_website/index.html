@@ -11,12 +11,15 @@
     <h1 class="title">🌤️ Weather Forecast App</h1>
 
     <!-- Search box -->
-<div class="search-box">
-  <input type="text" placeholder="Enter city">
-  <button onclick="getWeather()">Get Weather</button>
-  <button onclick="getWeatherByLocation()">Get weather by Live Location</button>
-</div>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button onclick="getWeather()">Get Weather</button>
+    </div>
 
+    <!-- Live location button -->
+    <div class="search-box" style="margin-top: 10px;">
+      <button onclick="getWeatherByLocation()">Get weather by Live Location</button>
+    </div>
 
     <!-- Result -->
     <div id="weatherResult" class="weather-box"></div>
