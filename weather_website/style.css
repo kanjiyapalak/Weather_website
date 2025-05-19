@@ -143,4 +143,10 @@ body {
    font-size: 1.2em;
   }
 }
+@media (max-width: 312px)
+{
+     .title{
+   font-size: 1.1em;
+  }
+}
 
